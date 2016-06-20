@@ -1,2 +1,2 @@
 # password-2.0
-A software that can repla e the password as it is now
+A software that can replace the password as it is now.
