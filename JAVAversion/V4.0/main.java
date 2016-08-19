@@ -13,7 +13,7 @@ class main {
     //Array that stores all input passwords
     int[] UserPass = {};
     
-    Scanner reader = new scanner(system.in); //Allows user input
+    scanner reader = new Scanner(System.in); //Allows user input
     System.out.println("Enter password " + Num + " :"); //Asks user input
     UserPass[Num] = reader.nextInt();
     
@@ -32,7 +32,7 @@ class main {
       }
     }//while
   }//function
-  private void LastCheck(){ //Checks if you are done, most important function in the program
+  private static void LastCheck(){ //Checks if you are done, most important function in the program
     if (PassLeft == -1){
       System.out.println("Authentication succesfull");
     }
