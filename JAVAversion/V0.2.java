@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main{ //Where everything happens
+public class V0.2{ //Where everything happens
   public static void main(String[] args){
     //Variables I am going to use
     Num = 0;
