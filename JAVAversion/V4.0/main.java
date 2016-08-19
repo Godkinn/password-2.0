@@ -3,9 +3,9 @@ import java.util.Scanner;
 class main {
   public static void main(String[] args) {
     //Variables used
-    Num = 0;
-    PassLeft = 1;
-    TriesLeft = 1;
+    int Num = 0;
+    int PassLeft = 1;
+    int TriesLeft = 1;
     
     //Array that stores all passwords
     int[] Pass = {123, 456};
