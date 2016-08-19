@@ -23,7 +23,7 @@ class main {
         PassLeft = PassLeft - 1; //One step closer to authentication
       }
       else {
-        if ((Num == 1||2) && TriesLeft == 1){ //Checks if you have the right to try again
+        if (Num == 1||2 && TriesLeft == 1){ //Checks if you have the right to try again
           TriesLeft = TriesLeft - 1; //Only one time
         }
         else {
