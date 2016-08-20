@@ -13,11 +13,11 @@ class main {
     //Array that stores all input passwords
     int[] UserPass = {};
     
-    scanner reader = new Scanner(System.in); //Allows user input
-    System.out.println("Enter password " + Num + " :"); //Asks user input
-    UserPass[Num] = reader.nextInt();
-    
     while(PassLeft != -1) { //As long as you are not done
+      scanner reader = new Scanner(System.in); //Allows user input
+      System.out.println("Enter password " + Num + " :"); //Asks user input
+      UserPass[Num] = reader.nextInt();
+    
       if (UserPass[Num] == Pass[Num]) { //Checks if you filled in the right passwords
         Num = Num + 1; //Next block
         PassLeft = PassLeft - 1; //One step closer to authentication
