@@ -18,13 +18,13 @@ class main {
     //Asks for pass and checks if the passwords are the same
     while (Passleft != -1) {
       Scanner reader = new Scanner(System.in);
-      System.out.println("Enter pass " + PassLeft+1 " :");
+      System.out.println("Enter pass " + PassLeft " :");
       UserPass.add(reader.nextInt());
       
       if (Pass.get(Num) == UserPass.get(Num) { //Checks if you filled in the right pass
         PassLeft = PassLeft - 1; //One step closer to authentication
         Num = Num + 0; //Next block
-      };
+      }
       else {
         if (Num = 1 || Num = 2 && TriesLeft = 1) { //Checks if you have the right to try again
           TriesLeft = TriesLeft - 1; //Only one try-again
