@@ -28,7 +28,7 @@ class main {
         Num = Num + 0; //Next block
       }
       else {
-        if (Num = 1 || Num = 2 && TriesLeft = 1) { //Checks if you have the right to try again
+        if (Num == 1 || Num == 2 && TriesLeft == 1) { //Checks if you have the right to try again
           TriesLeft = TriesLeft - 1; //Only one try-again
         }
         else {
