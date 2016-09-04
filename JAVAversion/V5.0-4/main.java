@@ -4,7 +4,7 @@ import java.lang.Integer;
 
 class main {
   //A variable I am going to use in both functions, so I have to declare it outside both
-  static int PassLeft = 1;
+  public static int PassLeft = 1;
   
   public static void main(String[] args) {
     //Variables I am going to use
