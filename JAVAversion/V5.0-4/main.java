@@ -20,7 +20,7 @@ class main {
     List<Integer> UserPass = new ArrayList<Integer>();
     
     //Asks for pass and checks if the passwords are the same
-    while (Passleft != 0) {
+    while (PassLeft != 0) {
       Scanner reader = new Scanner(System.in);
       System.out.println("Enter pass " + PassLeft + " :");
       UserPass.add(reader.nextInt());
@@ -35,7 +35,7 @@ class main {
           TriesLeft = TriesLeft - 1; //Only one try-again
         }
         else {
-          PassLeft = Passleft + 1; //One step further away from authentication
+          PassLeft = PassLeft + 1; //One step further away from authentication
           UserPass.remove(Num);
         };
       };
