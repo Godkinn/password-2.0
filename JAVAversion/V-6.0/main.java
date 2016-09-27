@@ -10,26 +10,26 @@ class main { //The overall wrapper
     int Num = 0;
     int TriesLeft = 1;
     
+    //A list that stores all user passwords
+    List<Integer> Pass = new ArrayList<Integer>();
+    Pass.add(123);
+    Pass.add(456);
+    
+    //A list in which all input is stored
+    List<Integer> UserPass = new ArrayList<Integer>();
+    
     while (PassLeft != 0) {
-      //A list that stores all user passwords
-      List<Integer> Pass = new ArrayList<Integer>();
-      Pass.add(123);
-      Pass.add(456);
+     Scanner reader = new Scanner(System.in); //Asks for password and stores it in UserPass on place Num
+     System.out.println("Enter password:");
+     UserPass.add(Num, reader.nextInt());
+     System.out.println("UserPass = " + UserPass); //EXTRA for monitoring
       
-      //A list in which all input is stored
-      List<Integer> UserPass = new ArrayList<Integer>();
-      
-      Scanner reader = new Scanner(System.in); //Asks for password and stores it in UserPass on place Num
-      System.out.println("Enter password:");
-      UserPass.add(Num, reader.nextInt());
-      System.out.println("UserPass = " + UserPass); //EXTRA for monitoring
-      
-      if (UserPass.get(Num) == Pass.get(Num) {
-        Num = Num + 1;
-      }
-      else {
-        PassLeft = PassLeft + 1;
-      };
+     if (UserPass.get(Num) == Pass.get(Num) {
+       Num = Num + 1;
+     }
+     else {
+       PassLeft = PassLeft + 1;
+     };
     }; //While
   }; //Function
 }; //Main
